@@ -4,7 +4,7 @@ public class P1 extends Thread {
     private char[] lista;
     private Buffer buffer;
     private Consumidor consumidor;
-    public boolean estado = false;
+
     private char[] arregloPalabra;
 
     public P1(char[] arregloPalabra, Buffer buffer, Consumidor consumidor) {
@@ -13,6 +13,9 @@ public class P1 extends Thread {
         this.consumidor = consumidor;
         this.arregloPalabra = arregloPalabra;
     }
+
+
+
     public static boolean esConsonante(char c) {
         c = Character.toLowerCase(c);
         return Character.isLetter(c) && !esVocal(c);
@@ -37,23 +40,23 @@ public class P1 extends Thread {
 
     @Override
     public void run() {
-        while (true) {
+        for (char c : arregloPalabra) {
+            if ((esConsonante(c) || isCaracterEspecial(c))) {
+                System.out.println("Hilo 1 crea: " + c);
+                if (consumidor.verificarPalabraArmada(Consumidor.arreglo, Consumidor.palabra)) {
 
-            if (consumidor.palabraA) {
-                System.out.println("Palabra armada detectada. Deteniendo hilo P1.");
+                    System.out.println("Hilos terminan, palabra armada correctamente");
                 break;
-            }
-            for (char c : arregloPalabra) {
-                if ((isCaracterEspecial(c) || esConsonante(c)) ) {
-                    System.out.println("Hilo 1 crea: " + c);
-                    buffer.lanzar(c);
-                    try {
-                        Thread.sleep(100);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+                }
+                buffer.lanzar(c);
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             }
         }
+
+
+        }
     }
-}
