@@ -3,7 +3,7 @@ package co.edu.uniquindio.punto1;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.concurrent.Semaphore;
-
+//hola
 public class Consumidor extends Thread {
     private Buffer buffer;
     private static ArrayList<Character> auxiliar = new ArrayList<>();
