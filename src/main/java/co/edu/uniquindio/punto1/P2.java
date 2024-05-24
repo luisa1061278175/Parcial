@@ -4,6 +4,7 @@ public class P2 extends Thread {
     private char[] lista;
     private Buffer buffer;
     private Consumidor consumidor;
+
     public boolean estado = false;
     private char[] arregloPalabra;
 
