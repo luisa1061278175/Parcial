@@ -1,0 +1,42 @@
+
+
+❤️Cargar el arreglo desde un archivo que se llamara letras.txt
+
+❤️El arreglo es el mismo para los productores,
+va a estar conformado por letras del abecedario en minúsculas (a-z),
+números(0-9) y caracteres especiales (@,#,/,%,+, : , ;,_).
+
+❤️P1 lanza caracteres especiales y consonantes.
+  Debe esperar 150 milisegundos para enviar el siguiente carácter especial.
+
+❤️P2 lanza números de 0 a 9 y vocales .
+Debe esperar 100 milisegundos para enviar el siguiente número
+
+❤️Dichas letras se envían a un buffer con un tamaño de 15 caracteres.
+
+❤️El hilo (Consumidor) consume los caracteres del buffer con el fin de crear
+ en un arreglo la palabra “progr@macion_3#2024%”.
+
+❤️El hilo consumidor recoge 5 caracteres a la vez y se detiene por 100 milisegundos.
+
+❤️El hilo consumidor debe verificar si la letra hace parte de la palabra,
+si hace parte la agrega en la posición del arreglo correspondiente “progr@macion_3#2024%”,
+en caso contrario debe consumir la letra y agregarla a una lista auxiliar (ArrayList)
+que va a contener las letras que no hacen parte de la palabra a formar.
+
+❤️Cuando se haya armado la palabra en el arreglo se debe terminar la ejecución
+todos los hilos en ejecución, atento productores como consumidores,
+es decir se debe verificar que la palabra esté completa.
+
+❤️Mostrar por consola el arreglo con la palabra formada y por consola la lista
+de las letras que no hacen parte del arreglo.
+
+❤️Guardar la lista con las letras que no hacen parte del arreglo en un archivo
+ letrasSobrantes.txt dentro del mismo proyecto
+
+
+❤️(OJO guardar en ruta relativa, no se acepta absoluta)
+
+❤️Registrar en un archivo Log cuando se arme la palabra,
+
+ de tal forma se indica fecha, hora, accion

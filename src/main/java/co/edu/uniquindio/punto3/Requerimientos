@@ -1,0 +1,23 @@
+❤️ Las noticias cuentan con fecha, título, descripción,
+  url Imagen(solo es mostrar una ruta de la imagen “src/imagenes/noticia.png”)
+  y el código del investigador (cédula);
+
+❤️ Investigador:almacenar la cédula, nombre, título profesional,
+   grupo de investigación y área de investigación.
+
+❤️La información de investigadores y noticias son cargadas desde el servidor
+  crear un archivo para investigador (investigador.txt) y un archivo para noticias
+  (noticias.txt)
+
+❤️Dentro del proyecto servidor crear una carpeta llamada archivos
+  y alojar los archivos de investigador.txt y noticias.txt en dicha carpeta
+  (“src/archivos”).
+
+❤️El archivo investigador.txt debe contener 4 investigadores.
+  El archivo noticias.txt debe contener 2 noticias por investigador (8 noticias)
+  El formato de los archivo como consideren (, @ ;).
+
+❤️Cuando se ejecute la aplicación cliente, se mostrará la lista de investigadores
+  (cargados desde el servidor).  De la lista de investigadores obtenidos del
+  servidor se podrá seleccionar un investigador y el sistema desplegará sus noticias
+  (consulta al servidor).

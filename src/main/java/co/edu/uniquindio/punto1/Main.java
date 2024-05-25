@@ -5,13 +5,13 @@ import java.util.ArrayList;
 
 public class Main {
 
-    static String ruta = "datosTxt/letras.txt";
+    static String ruta = "src/punto1DatosTxt/letras.txt";
 
     public static void main(String[] args) {
         try {
 
-            ArrayList<Character> contenido = LeerCaracteres.leerArchivo(ruta);
-            char[] datos = LeerCaracteres.archivosAVector(contenido);
+            ArrayList<Character> contenido = ArchivoUtil.leerArchivo(ruta);
+            char[] datos = ArchivoUtil.archivosAVector(contenido);
 
             Buffer buffer = new Buffer();
 

@@ -1,11 +1,15 @@
 package co.edu.uniquindio.punto1;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.concurrent.Semaphore;
 //hola
 public class Consumidor extends Thread {
     private Buffer buffer;
+    private ArchivoUtil archivoUtil;
     private static ArrayList<Character> auxiliar = new ArrayList<>();
     public static char[] arreglo = new char[20];
     public static char[] palabra = {'p', 'r', 'o', 'g', 'r', '@', 'm', 'a', 'c', 'i', 'o', 'n', '_', '3', '#', '2', '0', '2', '4', '%'};
@@ -29,9 +33,16 @@ public class Consumidor extends Thread {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
+
             }
         }
         System.out.println("Ya no consume más, palabra armada correctamente");
+        try {
+            archivoUtil.guardarRegistroLog("Palabra armada correctamente",4,"Palabra Armada","src/punto1DatosTxt/log.txt");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        escribirLetrasSobrantes();
 
         semaphore.release();
 
@@ -60,5 +71,14 @@ public class Consumidor extends Thread {
         System.out.println("Arreglo con caracteres sobrantes: " + auxiliar);
     }
 
+    public void escribirLetrasSobrantes() {
+        try (PrintWriter writer = new PrintWriter(new FileWriter("src/punto1DatosTxt/letrasSobrantes.txt", true))) {
+            for (char c : auxiliar) {
+                writer.print(c);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
 }

@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31a2f755-0916-415a-abe8-189274b8be9c" name="Changes" comment="CAmbios">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto2/AppCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto2/AppServidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto2/Enunciado" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto2/MainCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto2/MainServidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/archivos/investigador.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/archivos/noticias.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/Requerimientos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto3/Requerimientos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto3/model/Investigador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto3/model/Noticias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/punto1DatosTxt/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datosTxt/letras.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto1DatosTxt/letras.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/Consumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/Consumidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/LeerCaracteres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/ArchivoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto3/Enunciado" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto3/Enunciado" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +38,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2gv51c0XWXpvLBRlhG8ObS4kfRP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,13 +67,15 @@
       <recent name="C:\Users\USUARIO\Documents\DatosProgramacion\Parcial\src\main\java\co\edu\uniquindio\punto1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USUARIO\Documents\DatosProgramacion\Parcial\src" />
+      <recent name="C:\Users\USUARIO\Documents\DatosProgramacion\Parcial\src\archivos" />
       <recent name="C:\Users\USUARIO\Documents\DatosProgramacion\Parcial" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="co.edu.uniquindio.punto1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainCliente">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.punto1.Main" />
       <module name="Parcial" />
@@ -106,9 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainCliente" />
         <item itemvalue="Application.MainServidor" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716582418646</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CAmbios">
+      <option name="closed" value="true" />
+      <created>1716644494439</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716644494439</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

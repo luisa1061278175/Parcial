@@ -1,0 +1,4 @@
+1111,maria,doctoraEnBiologia,biocientificos,genetica;
+2222,carlos,licenciadoEnQuimica,quimicosAvanzados,quimicaOrganica;
+3333,laura,ingenieraCivil,constructoresDelFuturo,infraestructura;
+4444,pedro,doctorEnFísica,fisicosTeoricos,fisicaCuantica

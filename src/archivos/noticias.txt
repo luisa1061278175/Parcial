@@ -1,0 +1,9 @@
+3333,2024-01-25,proyectoDeInfraestructuraSostenible, infraestructuraSostenible,src/imagenes/noticia4.png;
+3333,2024-05-25,softwareParaGestionDeDatos,descubrimientoSoftwareGestionDeDatos,src/imagenes/noticia1.png;
+1111,2024-03-25,estudioSobreGeneticaDePoblaciones,descubrimientoEvoluciónDeEspecies,src/imagenes/noticia2.png;
+1111,2024-05-22,nuevosCompuestosOrganicos,organicosParaLaAplicaciónEnLaIndustriaFarmaceutica,src/imagenes/noticia3.png;
+4444,2024-11-24,teoriaSobreFisicaCuantica,teoriaRevolucionariaSobreFisicaCuantica,src/imagenes/noticia5.png.
+4444,2024-11-24,avanceEnNanotecnologia,DescubrimientoDeNuevosMaterialesNanotecnologicos,src/imagenes/noticia6.png.
+2222,2024-09-15,nuevosCompuestosQuimicos,InvestigacionDeNuevosCompuestosQuimicos,src/imagenes/noticia7.png.
+2222,2024-08-03,estudioDeReaccionesQuimicas,DescubrimientoDeNuevasReaccionesQuimicas,src/imagenes/noticia8.png.
+
