@@ -1,0 +1,22 @@
+
+
+En esta aplicación el cliente se conecta al servidor,
+para ello debe introducir la dirección IP del servidor(localhost),
+el puerto y los parámetros necesarios sobre los cuales el servidor debe
+hacer las operaciones. Es decir el cliente le envía al servidor unos parámetros
+como información para que el servidor realice unas operaciones. Una vez conectado
+con el servidor, dicho servidor toma los parámetros, realiza las operaciones y los imprime
+por consola.
+El servidor posteriormente envía los resultados al cliente,
+el cual también los imprime por consola.
+(programacion3.parcial3.cliente.ejercicio2  y
+programacion3.parcial3.servidor.ejercicio2)
+
+Operaciones a realizar en el servidor:
+
+Dada una frase verificar qué es palíndroma.  “AllívaRamónynomaravilla”.
+Calcular el número de vocales y consonantes de una cadena de forma recursiva.
+Por ejemplo “Uniquindio”, tiene 6 vocales y 4 consonantes.
+Todo el código del proyecto debe corresponder sólo a este parcial.
+Es decir los nombres del proyecto , los paquetes, de las clases deben estar
+relacionados a este parcial.

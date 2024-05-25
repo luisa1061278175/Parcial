@@ -1,0 +1,15 @@
+La universidad del Quindío desea desarrollar una nueva aplicación llamada UQNoticias para realizar las publicaciones de las noticias más relevantes de los principales investigadores de la universidad del Quindío. Las noticias cuentan con fecha, título, descripción, url Imagen(solo es mostrar una ruta de la imagen “src/imagenes/noticia.png”) y el código del investigador (cédula); del investigador se almacena la cédula, nombre, título profesional, grupo de investigación y área de investigación.
+
+Cuando se ejecute la aplicación cliente, se mostrará la lista de investigadores (cargados desde el servidor).  De la lista de investigadores obtenidos del servidor se podrá seleccionar un investigador y el sistema desplegará sus noticias( consulta al servidor).
+(programacion3.parcial3.cliente.ejercicio3  y programacion3.parcial3.servidor.ejercicio3)
+
+Requisitos:
+La información de investigadores y noticias son cargadas desde el servidor
+crear un archivo para investigador (investigador.txt) y un archivo para noticias (noticias.txt)
+El archivo investigador.txt debe contener 4 investigadores.
+El archivo noticias.txt debe contener 2 noticias por investigador (8 noticias)
+El formato de los archivo como consideren (, @ ;).
+Dentro del proyecto servidor crear una carpeta llamada archivos y alojar los archivos de investigador.txt y noticias.txt en dicha carpeta (“src/archivos”).
+No se necesitan implementar Cruds, los datos de investigador y noticias se crean de forma manual en los archivos.
+El desarrollo de este ejercicio se hace por medio de interfaz gráfica
+No utilizar rutas absolutas de los equipos de cómputo en que trabajan . Por eso se está indicando que dentro del proyecto servidor crear una carpeta llamada archivos.
