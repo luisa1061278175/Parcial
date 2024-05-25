@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31a2f755-0916-415a-abe8-189274b8be9c" name="Changes" comment="CAmbios">
-      <change afterPath="$PROJECT_DIR$/src/archivos/investigador.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/archivos/noticias.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/Requerimientos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto3/Requerimientos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto3/model/Investigador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto3/model/Noticias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/punto1DatosTxt/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datosTxt/letras.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto1DatosTxt/letras.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/Consumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/Consumidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/LeerCaracteres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/ArchivoUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto3/Enunciado" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/punto3/Enunciado" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716644494439</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CAmbios">
+      <option name="closed" value="true" />
+      <created>1716648486690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716648486690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

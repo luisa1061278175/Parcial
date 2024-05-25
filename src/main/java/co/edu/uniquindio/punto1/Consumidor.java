@@ -38,7 +38,7 @@ public class Consumidor extends Thread {
         }
         System.out.println("Ya no consume más, palabra armada correctamente");
         try {
-            archivoUtil.guardarRegistroLog("Palabra armada correctamente",4,"Palabra Armada","src/punto1DatosTxt/log.txt");
+            archivoUtil.guardarRegistroLog("Palabra armada correctamente",1,"Palabra Armada","src/punto1DatosTxt/log.txt");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
